@@ -19,14 +19,27 @@ Works on its own. With the [Schemity MCP server](https://schemity.com/doc/ai-ass
 
 ### Install
 
-Claude Code:
+Claude Code (2.1.275 or later), in a session:
+
+```
+/plugin install database-design --marketplace schemity/skills
+```
+
+Earlier versions, in two steps:
+
+```
+/plugin marketplace add schemity/skills
+/plugin install database-design@schemity
+```
+
+The skill then shows as `/database-design:designing-database-schemas`, and the agent also loads it on its own when you ask it to design or change a schema.
+
+Other agents that read [Agent Skills](https://agentskills.io):
 
 ```sh
 git clone https://github.com/schemity/skills.git
-cp -r skills/skills/designing-database-schemas ~/.claude/skills/
+cp -r skills/skills/designing-database-schemas ~/.agents/skills/
 ```
-
-Other agents that read [Agent Skills](https://agentskills.io): copy the folder into `~/.agents/skills/`.
 
 ## License
 

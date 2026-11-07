@@ -1,0 +1,10 @@
+{
+  "name": "database-design",
+  "description": "Makes an agent decide what a schema would otherwise leave to the database's defaults: constraint names, ON DELETE per foreign key, link-table identity, safe migrations on live tables.",
+  "version": "1.0.0",
+  "author": { "name": "Schemity", "url": "https://schemity.com" },
+  "homepage": "https://schemity.com",
+  "repository": "https://github.com/schemity/skills",
+  "license": "MIT",
+  "keywords": ["database", "schema", "postgresql", "mysql", "sql-server", "sqlite", "migrations"]
+}

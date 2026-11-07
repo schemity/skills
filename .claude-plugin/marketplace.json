@@ -1,0 +1,12 @@
+{
+  "name": "schemity",
+  "owner": { "name": "Schemity", "email": "hello@schemity.com" },
+  "description": "Agent skills for designing database schemas, from the team behind Schemity.",
+  "plugins": [
+    {
+      "name": "database-design",
+      "source": "./",
+      "description": "Makes an agent decide what a schema would otherwise leave to the database's defaults: constraint names, ON DELETE per foreign key, link-table identity, safe migrations on live tables."
+    }
+  ]
+}
