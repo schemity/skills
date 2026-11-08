@@ -12,6 +12,7 @@ Makes an AI coding agent decide what it would otherwise leave to the database's 
 - the right identity and name for link and membership tables
 - the locking cost of every statement in a migration on a table that holds data
 - a verification step before it hands the design back
+- scenario SQL for each rule the schema must enforce, such as a cross-tenant insert that must be refused, run on a throwaway Docker database
 
 [`reference.md`](skills/designing-database-schemas/reference.md) holds the rest of the defaults (keys, time, text, enums, unique rules, deferrable and circular foreign keys, polymorphic associations, embeddings), one line each, linked to the post with the measurements behind it.
 
